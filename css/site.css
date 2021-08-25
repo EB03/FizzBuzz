@@ -3,6 +3,8 @@
     --secondary-color: #fe3600;
     --dark-color: #292929;
     --white-color: #dff3e4;
+
+    --logo-font: 'Fascinate', serif;
 }
 
 body {
@@ -58,7 +60,9 @@ footer .social > a:hover {
 }
 
 .logo-font {
-    font-family: 'Audiowide', sans-serif;
+    font-family: var(--logo-font);
+    color: #FEFD46;
+    border-color: #FE3600;
 }
 
 .regular-font {

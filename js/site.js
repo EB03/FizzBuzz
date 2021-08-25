@@ -22,7 +22,7 @@ function getFizzBuzz(fNum, bNum) {
         let results = document.getElementById("results")
 
         if (i % fNum == 0 && i % bNum == 0) {
-            results.innerHTML += `<tr><td>FizzBuzz</td></tr>`;
+            results.innerHTML += `<tr><td><img src="/img/FizzBuzz_Logo_Text.svg" alt="FizzBuzz_Logo_Text" width="90"></td></tr>`;
         }
 
         else if (i % bNum == 0) {
