@@ -1,5 +1,6 @@
 
 function getString() {
+    
     let fNum = document.getElementById("fizzNum").value;
     let bNum = document.getElementById("buzzNum").value;
 
@@ -29,7 +30,7 @@ function getFizzBuzz(fNum, bNum) {
             results.innerHTML += `<tr><td>Buzz</td></tr>`;
         }
 
-        else if (i % 3 == 0) {
+        else if (i % fNum == 0) {
             results.innerHTML += `<tr><td>Fizz</td></tr>`;
         }
 
