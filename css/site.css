@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #1d5888;
+    --primary-color: #52a5e9;
     --secondary-color: #fe3600;
     --dark-color: #292929;
     --white-color: #dff3e4;
@@ -9,6 +9,10 @@
 
 body {
     color: var(--dark-color);
+}
+
+.btn-primary {
+    background-color: #FEFD46;
 }
 
 nav {
@@ -75,7 +79,7 @@ footer .social > a:hover {
 }
 
 .Fizz {
-    color: green;
+    color: rgb(12, 173, 12);
 }
 
 .Buzz {
