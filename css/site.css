@@ -78,6 +78,10 @@ footer .social > a:hover {
     font-size: 2rem;
 }
 
+.filter-logo{
+    filter: invert(48%) sepia(1%) saturate(2476%) hue-rotate(86deg) brightness(150%) contrast(119%);
+}
+
 .Fizz {
     color: rgb(12, 173, 12);
 }
